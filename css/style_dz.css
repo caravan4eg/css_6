@@ -107,40 +107,31 @@ body {
     margin: 0px 0px 30px 0px;
 }
 
-
 .list1 {
-	font-size: 20px;
-	width: 830px; 
-	/* height: 157px; */
-    /* padding-left: 10px; */
-	margin: 0 auto 60px auto;
-    /* padding-left: 35px; */
+    font-size: 20px;
+    width: 830px;
 }
 .list1 li {
     background: url(/img/icons/check.png) left no-repeat;
-    
-	
+    margin: 0px 0px 10px 0px;
 }
 
 .list1 li:first-child {
     color: #273d46;
     text-decoration: line-through;
     padding-left: 35px;
-    margin: 0px 0px 10px 0px;
 }
 
 .list1 li:nth-child(2) {
     color: #273d46;
     font-weight: bold;
     padding-left: 35px;
-    margin: 0px 0px 10px 0px;
 }
 
 .list1 li:nth-child(3) {
     color: #273d46;
     font-style: italic;
     padding-left: 35px;
-    margin: 0px 0px 10px 0px;
 }
 .list1 li:last-child {
     color: #273d46;
@@ -149,35 +140,15 @@ body {
     margin: 0px 0px 30px 0px;
 }
 .list2 li {
+    color: #273d46;
     background: url(/img/icons/check.png) left no-repeat;
     padding-left: 35px;
-	
-}
-
-.list2 li:first-child {
-    color: #273d46;
-    margin: 0px 0px 10px 0px;
-}
-
-.list2 li:nth-child(2) {
-    color: #273d46;
-    font-size: 20px;
     margin: 0px 0px 10px 0px;
 }
 
 .list2 li:nth-child(2):hover {
     color: #d55a5a;
     background: url(/img/icons/check_red.png) left no-repeat;
-        
-}
-
-.list2 li:nth-child(3) {
-    color: #273d46;
-    margin: 0px 0px 10px 0px;
-}
-.list2 li:last-child {
-    color: #273d46;
-    margin: 0px 0px 30px 0px;
 }
 
 .txtbutton {
@@ -187,36 +158,33 @@ body {
     border-radius: 30px;
     letter-spacing: 2.8px;
     background-color: #80b7b3;
-	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
-	text-transform: uppercase;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+    text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 2.8px;
     margin: 50px 0px 50px 0px;
-
 }
 
-.txtbutton:hover{
+.txtbutton:hover {
     background-color: #3a5856;
-    }
-.txtbutton:active{
+}
+.txtbutton:active {
     background-color: #818181;
 }
-.txtbutton span{
+.txtbutton span {
     background: url(/img/icons/arrow.svg) right no-repeat;
     padding: 0px 35px 0px 0px;
 }
 
 .txtinput {
     display: block;
-    /* Style for "Layer 1 co" */
-width: 292px;
-height: 50px;
-border: 1px solid #b0b0b0;
+    width: 292px;
+    height: 50px;
+    border: 1px solid #b0b0b0;
     margin: 20px 0px 50px 0px;
-
 }
 
-.txtinput:focus{
+.txtinput:focus {
     box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
-border: 1px solid #7fbed5;
+    border: 1px solid #7fbed5;
 }
